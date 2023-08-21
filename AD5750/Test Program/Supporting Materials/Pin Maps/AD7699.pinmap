@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PinMap schemaVersion="1.5" xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Instruments>
+		<NIDCPowerInstrument name="SMU_4162_C2_S10" numberOfChannels="12" />
+		<NIDCPowerInstrument name="SMU_4162_C2_S11" numberOfChannels="12" />
+		<NIDCPowerInstrument name="SMU_4162_C2_S12" numberOfChannels="12" />
+		<NIDCPowerInstrument name="SMU_4163_C2_S14" numberOfChannels="24" />
+		<NIDCPowerInstrument name="SMU_4163_C2_S15" numberOfChannels="24" />
+		<NIDCPowerInstrument name="SMU_4163_C2_S13" numberOfChannels="24" />
+		<NIDCPowerInstrument name="PPS_4110_C1_S07" numberOfChannels="3" />
+		<NIRelayDriverModule name="RELAY_2567_C1_S08" numberOfControlLines="64" />
+		<NIDigitalPatternInstrument name="HSD_6571_C1_S03" numberOfChannels="32" group="Digital" />
+		<NIDigitalPatternInstrument name="HSD_6571_C1_S02" numberOfChannels="32" group="Digital" />
+		<NIDigitalPatternInstrument name="HSD_6571_C1_S06" numberOfChannels="32" group="Digital" />
+		<NIDigitalPatternInstrument name="HSD_6571_C1_S05" numberOfChannels="32" group="Digital" />
+		<NIDCPowerInstrument name="SMU_4137_C2_S09" numberOfChannels="1" />
+		<NIDCPowerInstrument name="SMU_4137_C2_S08" numberOfChannels="1" />
+		<NIDCPowerInstrument name="SMU_4137_C2_S07" numberOfChannels="1" />
+		<NIDCPowerInstrument name="SMU_4137_C2_S06" numberOfChannels="1" />
+		<NIDCPowerInstrument name="SMU_4137_C2_S05" numberOfChannels="1" />
+		<NIDCPowerInstrument name="SMU_4137_C2_S04" numberOfChannels="1" />
+		<NIDCPowerInstrument name="SMU_4137_C2_S03" numberOfChannels="1" />
+		<NIDCPowerInstrument name="SMU_4137_C2_S02" numberOfChannels="1" />
+		<NIDmmInstrument name="DMM_4081_C1_S12" />
+		<NIDmmInstrument name="DMM_4081_C1_S13" />
+		<NIDmmInstrument name="DMM_4081_C1_S14" />
+		<NIDAQmxTask name="DAQ_6368_C1_S09_DIO" taskType="DIO" channelList="DAQ_6368_C1_S09/PFI1,DAQ_6368_C1_S09/PFI0" />
+		<NIDAQmxTask name="SRC_4467_C1_S15" taskType="AO" channelList="SRC_4467_AO0_POS_INST1,SRC_4467_AO0_NEG_INST1,SRC_4467_AO1_POS_INST1,SRC_4467_AO1_NEG_INST1" />
+		<NIDCPowerInstrument name="SMU_4139_C2_17" numberOfChannels="1" />
+		<NIDCPowerInstrument name="SMU_4147_C2_16" numberOfChannels="4" />
+		<NIDmmInstrument name="DMM_4081_C1_S11" />
+	</Instruments>
+	<Pins>
+		<SystemPin name="PPS4110_POS15V_POS5V" />
+		<SystemPin name="PPS4110_NEG15V" />
+		<SystemPin name="SMU4163_P15V" />
+		<SystemPin name="SMU4163_M15V" />
+		<SystemPin name="SMU4163_RLY12V" />
+		<SystemPin name="SMU4163_P5V" />
+		<DUTPin name="SMU4137_DUT_BUF" />
+		<DUTPin name="SMU4137_DUT_REF" />
+		<DUTPin name="SMU4137_AVDD" />
+		<DUTPin name="SMU4137_BVDD" />
+		<DUTPin name="SMU4162_REF_BUF_PWR" />
+		<DUTPin name="SMU4162_POS_VBUF" />
+		<DUTPin name="SMU4162_NEG_VBUF" />
+		<DUTPin name="SMU4162_COMP_V" />
+		<DUTPin name="SMU4162_COMP_IN" />
+		<DUTPin name="SMU4162_VIO" />
+		<DUTPin name="SMU4162_EXT_REF" />
+		<DUTPin name="SMU4162_DC" />
+		<DUTPin name="SMU4162_I_SRC_HI" />
+		<DUTPin name="HSD6571_PMMAHI_A0" />
+		<DUTPin name="HSD6571_PMMAHI_A1" />
+		<DUTPin name="HSD6571_PMMAHI_A2" />
+		<DUTPin name="HSD6571_PMMAHI_EN" />
+		<DUTPin name="HSD6571_PMMALO_A0" />
+		<DUTPin name="HSD6571_PMMALO_A1" />
+		<DUTPin name="HSD6571_PMMALO_A2" />
+		<DUTPin name="HSD6571_PMMALO_EN" />
+		<DUTPin name="HSD6571_PVS_SDIN" />
+		<DUTPin name="HSD6571_PVS_SCLK" />
+		<DUTPin name="HSD6571_PVS_SYNC_N" />
+		<DUTPin name="HSD6571_PVS_SDO" />
+		<DUTPin name="HSD6571_CNV" />
+		<DUTPin name="HSD6571_DIN" />
+		<DUTPin name="HSD6571_SCK" />
+		<DUTPin name="HSD6571_SDOUT" />
+		<DUTPin name="HSD6571_CAL_SDOUT" />
+		<DUTPin name="HSD6571_COMP_LATCH" />
+		<DUTPin name="DAQ6368_UDB_EN" />
+		<DUTPin name="SRC4467_ADC_BUF_IN_HI" />
+		<DUTPin name="SRC4467_ACD_BUF_IN_LO" />
+		<DUTPin name="HSD6571_PVS_LDAC" />
+		<DUTPin name="SMU4139_V_OFFSET" />
+		<DUTPin name="SMU4147_V_OFFSET" />
+		<DUTPin name="HSD6571_PVS_CLR" />
+		<DUTPin name="HSD6571_PVS_RESET" />
+		<DUTPin name="DMM4081_PMMBHI" />
+		<DUTPin name="DMM4081_PMMCHI" />
+	</Pins>
+	<PinGroups>
+		<PinGroup name="Pattern_Pins">
+			<PinReference pin="HSD6571_PVS_SYNC_N" />
+			<PinReference pin="HSD6571_PVS_SCLK" />
+			<PinReference pin="HSD6571_PVS_SDIN" />
+			<PinReference pin="HSD6571_PVS_LDAC" />
+		</PinGroup>
+		<PinGroup name="Digital_Pins">
+			<PinReference pin="HSD6571_PVS_RESET" />
+			<PinReference pin="HSD6571_PVS_CLR" />
+			<PinReference pin="HSD6571_PVS_LDAC" />
+			<PinReference pin="HSD6571_PVS_SYNC_N" />
+			<PinReference pin="HSD6571_PVS_SCLK" />
+			<PinReference pin="HSD6571_PVS_SDIN" />
+		</PinGroup>
+	</PinGroups>
+	<Relays>
+		<SystemRelay name="UDB01_K1" />
+		<SystemRelay name="UDB02_K2" />
+		<SystemRelay name="UDB03_K3" />
+		<SystemRelay name="UDB04_K4" />
+		<SystemRelay name="UDB05_K5" />
+		<SystemRelay name="UDB06_K6" />
+		<SystemRelay name="UDB07_K7" />
+		<SystemRelay name="UDB08_K8" />
+		<SystemRelay name="UDB09_K9" />
+		<SystemRelay name="UDB10_K10" />
+		<SystemRelay name="UDB11_K11" />
+		<SystemRelay name="UDB12_K12" />
+		<SystemRelay name="UDB13_K13" />
+		<SystemRelay name="UDB14_K14" />
+		<SystemRelay name="UDB15_K15" />
+		<SystemRelay name="UDB16_K16" />
+		<SystemRelay name="UDB17_K17" />
+		<SystemRelay name="UDB18_K18" />
+		<SystemRelay name="UDB19_K19" />
+		<SystemRelay name="UDB20_K20" />
+		<SystemRelay name="UDB21_K21" />
+		<SystemRelay name="UDB22_K22" />
+		<SystemRelay name="UDB23_K23" />
+		<SystemRelay name="UDB24_K24" />
+		<SystemRelay name="UDB25_K25" />
+		<SystemRelay name="UDB26_K26" />
+		<SystemRelay name="UDB27_K27" />
+		<SystemRelay name="UDB28_K28" />
+		<SystemRelay name="UDB29_K29" />
+		<SystemRelay name="UDB30_K30" />
+	</Relays>
+	<RelayGroups>
+		<RelayGroup name="ALL_HSD_RELAYS">
+			<RelayReference relay="UDB01_K1" />
+			<RelayReference relay="UDB02_K2" />
+			<RelayReference relay="UDB03_K3" />
+			<RelayReference relay="UDB04_K4" />
+			<RelayReference relay="UDB05_K5" />
+			<RelayReference relay="UDB06_K6" />
+			<RelayReference relay="UDB07_K7" />
+			<RelayReference relay="UDB08_K8" />
+			<RelayReference relay="UDB09_K9" />
+			<RelayReference relay="UDB10_K10" />
+			<RelayReference relay="UDB11_K11" />
+			<RelayReference relay="UDB12_K12" />
+			<RelayReference relay="UDB13_K13" />
+			<RelayReference relay="UDB14_K14" />
+			<RelayReference relay="UDB15_K15" />
+			<RelayReference relay="UDB16_K16" />
+			<RelayReference relay="UDB17_K17" />
+			<RelayReference relay="UDB18_K18" />
+			<RelayReference relay="UDB19_K19" />
+			<RelayReference relay="UDB20_K20" />
+			<RelayReference relay="UDB21_K21" />
+			<RelayReference relay="UDB22_K22" />
+			<RelayReference relay="UDB23_K23" />
+			<RelayReference relay="UDB24_K24" />
+			<RelayReference relay="UDB25_K25" />
+			<RelayReference relay="UDB26_K26" />
+			<RelayReference relay="UDB27_K27" />
+			<RelayReference relay="UDB28_K28" />
+			<RelayReference relay="UDB29_K29" />
+			<RelayReference relay="UDB30_K30" />
+		</RelayGroup>
+	</RelayGroups>
+	<Sites>
+		<Site siteNumber="0" />
+	</Sites>
+	<Connections>
+		<Connection pin="DAQ6368_UDB_EN" siteNumber="0" instrument="DAQ_6368_C1_S09_DIO" channel="DAQ_6368_C1_S09/PFI1" />
+		<Connection pin="DMM4081_PMMBHI" siteNumber="0" instrument="DMM_4081_C1_S13" channel="0" />
+		<Connection pin="DMM4081_PMMCHI" siteNumber="0" instrument="DMM_4081_C1_S11" channel="0" />
+		<Connection pin="HSD6571_CAL_SDOUT" siteNumber="0" instrument="HSD_6571_C1_S02" channel="17" />
+		<Connection pin="HSD6571_CNV" siteNumber="0" instrument="HSD_6571_C1_S02" channel="12" />
+		<Connection pin="HSD6571_COMP_LATCH" siteNumber="0" instrument="HSD_6571_C1_S02" channel="16" />
+		<Connection pin="HSD6571_DIN" siteNumber="0" instrument="HSD_6571_C1_S02" channel="13" />
+		<Connection pin="HSD6571_PMMAHI_A0" siteNumber="0" instrument="HSD_6571_C1_S02" channel="4" />
+		<Connection pin="HSD6571_PMMAHI_A1" siteNumber="0" instrument="HSD_6571_C1_S02" channel="5" />
+		<Connection pin="HSD6571_PMMAHI_A2" siteNumber="0" instrument="HSD_6571_C1_S02" channel="6" />
+		<Connection pin="HSD6571_PMMAHI_EN" siteNumber="0" instrument="HSD_6571_C1_S02" channel="7" />
+		<Connection pin="HSD6571_PMMALO_A0" siteNumber="0" instrument="HSD_6571_C1_S02" channel="8" />
+		<Connection pin="HSD6571_PMMALO_A1" siteNumber="0" instrument="HSD_6571_C1_S02" channel="9" />
+		<Connection pin="HSD6571_PMMALO_A2" siteNumber="0" instrument="HSD_6571_C1_S02" channel="10" />
+		<Connection pin="HSD6571_PMMALO_EN" siteNumber="0" instrument="HSD_6571_C1_S02" channel="11" />
+		<Connection pin="HSD6571_PVS_CLR" siteNumber="0" instrument="HSD_6571_C1_S05" channel="18" />
+		<Connection pin="HSD6571_PVS_LDAC" siteNumber="0" instrument="HSD_6571_C1_S05" channel="16" />
+		<Connection pin="HSD6571_PVS_RESET" siteNumber="0" instrument="HSD_6571_C1_S05" channel="19" />
+		<Connection pin="HSD6571_PVS_SCLK" siteNumber="0" instrument="HSD_6571_C1_S05" channel="1" />
+		<Connection pin="HSD6571_PVS_SDIN" siteNumber="0" instrument="HSD_6571_C1_S05" channel="0" />
+		<Connection pin="HSD6571_PVS_SDO" siteNumber="0" instrument="HSD_6571_C1_S05" channel="3" />
+		<Connection pin="HSD6571_PVS_SYNC_N" siteNumber="0" instrument="HSD_6571_C1_S05" channel="2" />
+		<Connection pin="HSD6571_SCK" siteNumber="0" instrument="HSD_6571_C1_S02" channel="14" />
+		<Connection pin="HSD6571_SDOUT" siteNumber="0" instrument="HSD_6571_C1_S02" channel="15" />
+		<Connection pin="SMU4137_AVDD" siteNumber="0" instrument="SMU_4137_C2_S07" channel="0" />
+		<Connection pin="SMU4137_BVDD" siteNumber="0" instrument="SMU_4137_C2_S06" channel="0" />
+		<Connection pin="SMU4137_DUT_BUF" siteNumber="0" instrument="SMU_4137_C2_S05" channel="0" />
+		<Connection pin="SMU4137_DUT_REF" siteNumber="0" instrument="SMU_4137_C2_S02" channel="0" />
+		<Connection pin="SMU4139_V_OFFSET" siteNumber="0" instrument="SMU_4139_C2_17" channel="0" />
+		<Connection pin="SMU4147_V_OFFSET" siteNumber="0" instrument="SMU_4147_C2_16" channel="2" />
+		<Connection pin="SMU4162_COMP_IN" siteNumber="0" instrument="SMU_4162_C2_S10" channel="7" />
+		<Connection pin="SMU4162_COMP_V" siteNumber="0" instrument="SMU_4162_C2_S10" channel="6" />
+		<Connection pin="SMU4162_DC" siteNumber="0" instrument="SMU_4162_C2_S11" channel="3" />
+		<Connection pin="SMU4162_EXT_REF" siteNumber="0" instrument="SMU_4162_C2_S11" channel="2" />
+		<Connection pin="SMU4162_I_SRC_HI" siteNumber="0" instrument="SMU_4162_C2_S10" channel="11" />
+		<Connection pin="SMU4162_POS_VBUF" siteNumber="0" instrument="SMU_4162_C2_S10" channel="0" />
+		<Connection pin="SMU4162_NEG_VBUF" siteNumber="0" instrument="SMU_4162_C2_S10" channel="1" />
+		<Connection pin="SMU4162_REF_BUF_PWR" siteNumber="0" instrument="SMU_4162_C2_S11" channel="0" />
+		<Connection pin="SMU4162_VIO" siteNumber="0" instrument="SMU_4162_C2_S10" channel="8" />
+		<Connection pin="SRC4467_ACD_BUF_IN_LO" siteNumber="0" instrument="SRC_4467_C1_S15" channel="SRC_4467_AO0_NEG_INST1" />
+		<Connection pin="SRC4467_ADC_BUF_IN_HI" siteNumber="0" instrument="SRC_4467_C1_S15" channel="SRC_4467_AO0_POS_INST1" />
+		<SystemConnection pin="PPS4110_NEG15V" instrument="PPS_4110_C1_S07" channel="2" />
+		<SystemConnection pin="PPS4110_POS15V_POS5V" instrument="PPS_4110_C1_S07" channel="1" />
+		<SystemConnection pin="SMU4163_M15V" instrument="SMU_4163_C2_S13" channel="1" />
+		<SystemConnection pin="SMU4163_RLY12V" instrument="SMU_4163_C2_S13" channel="2" />
+		<SystemConnection pin="SMU4163_P15V" instrument="SMU_4163_C2_S13" channel="0" />
+		<SystemConnection pin="SMU4163_P5V" instrument="SMU_4163_C2_S13" channel="3" />
+		<SystemRelayConnection relay="UDB01_K1" relayDriverModule="RELAY_2567_C1_S08" controlLine="K0" />
+		<SystemRelayConnection relay="UDB02_K2" relayDriverModule="RELAY_2567_C1_S08" controlLine="K1" />
+		<SystemRelayConnection relay="UDB03_K3" relayDriverModule="RELAY_2567_C1_S08" controlLine="K2" />
+		<SystemRelayConnection relay="UDB04_K4" relayDriverModule="RELAY_2567_C1_S08" controlLine="K3" />
+		<SystemRelayConnection relay="UDB05_K5" relayDriverModule="RELAY_2567_C1_S08" controlLine="K4" />
+		<SystemRelayConnection relay="UDB06_K6" relayDriverModule="RELAY_2567_C1_S08" controlLine="K5" />
+		<SystemRelayConnection relay="UDB07_K7" relayDriverModule="RELAY_2567_C1_S08" controlLine="K6" />
+		<SystemRelayConnection relay="UDB08_K8" relayDriverModule="RELAY_2567_C1_S08" controlLine="K7" />
+		<SystemRelayConnection relay="UDB09_K9" relayDriverModule="RELAY_2567_C1_S08" controlLine="K8" />
+		<SystemRelayConnection relay="UDB10_K10" relayDriverModule="RELAY_2567_C1_S08" controlLine="K9" />
+		<SystemRelayConnection relay="UDB11_K11" relayDriverModule="RELAY_2567_C1_S08" controlLine="K10" />
+		<SystemRelayConnection relay="UDB12_K12" relayDriverModule="RELAY_2567_C1_S08" controlLine="K11" />
+		<SystemRelayConnection relay="UDB13_K13" relayDriverModule="RELAY_2567_C1_S08" controlLine="K12" />
+		<SystemRelayConnection relay="UDB14_K14" relayDriverModule="RELAY_2567_C1_S08" controlLine="K13" />
+		<SystemRelayConnection relay="UDB15_K15" relayDriverModule="RELAY_2567_C1_S08" controlLine="K14" />
+		<SystemRelayConnection relay="UDB16_K16" relayDriverModule="RELAY_2567_C1_S08" controlLine="K15" />
+		<SystemRelayConnection relay="UDB17_K17" relayDriverModule="RELAY_2567_C1_S08" controlLine="K16" />
+		<SystemRelayConnection relay="UDB18_K18" relayDriverModule="RELAY_2567_C1_S08" controlLine="K17" />
+		<SystemRelayConnection relay="UDB19_K19" relayDriverModule="RELAY_2567_C1_S08" controlLine="K18" />
+		<SystemRelayConnection relay="UDB20_K20" relayDriverModule="RELAY_2567_C1_S08" controlLine="K19" />
+		<SystemRelayConnection relay="UDB21_K21" relayDriverModule="RELAY_2567_C1_S08" controlLine="K20" />
+		<SystemRelayConnection relay="UDB22_K22" relayDriverModule="RELAY_2567_C1_S08" controlLine="K21" />
+		<SystemRelayConnection relay="UDB23_K23" relayDriverModule="RELAY_2567_C1_S08" controlLine="K22" />
+		<SystemRelayConnection relay="UDB24_K24" relayDriverModule="RELAY_2567_C1_S08" controlLine="K23" />
+		<SystemRelayConnection relay="UDB25_K25" relayDriverModule="RELAY_2567_C1_S08" controlLine="K24" />
+		<SystemRelayConnection relay="UDB26_K26" relayDriverModule="RELAY_2567_C1_S08" controlLine="K25" />
+		<SystemRelayConnection relay="UDB27_K27" relayDriverModule="RELAY_2567_C1_S08" controlLine="K26" />
+		<SystemRelayConnection relay="UDB28_K28" relayDriverModule="RELAY_2567_C1_S08" controlLine="K27" />
+		<SystemRelayConnection relay="UDB29_K29" relayDriverModule="RELAY_2567_C1_S08" controlLine="K28" />
+		<SystemRelayConnection relay="UDB30_K30" relayDriverModule="RELAY_2567_C1_S08" controlLine="K29" />
+	</Connections>
+</PinMap>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BinDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.1" xmlns="http://www.ni.com/TestStand/SemiconductorModule/BinDefinitions">
+  <HardwareBins>
+    <Bin name="Info" number="0" type="Fail" />
+    <Bin name="Pass" number="1" type="Pass" />
+    <Bin name="Continuity" number="7" type="Fail" />
+    <Bin name="HibCalibration" number="9" type="Fail" />
+    <Bin name="CheckPartMode" number="15" type="Fail" />
+    <Bin name="BlowFuse" number="51" type="Fail" />
+    <Bin name="TimingMeas" number="16" type="Fail" />
+    <Bin name="FFT" number="18" type="Fail" />
+  </HardwareBins>
+  <SoftwareBins errorBin="13" defaultFailBin="7" defaultPassBin="1">
+    <Bin name="Pass" number="1" hardwareBin="1" />
+    <Bin name="Continuity" number="7" hardwareBin="7" />
+    <Bin name="Continuity" number="13" hardwareBin="7" />
+    <Bin name="HibCalibration" number="9" hardwareBin="9" />
+    <Bin name="CheckPartMode" number="15" hardwareBin="15" />
+    <Bin name="BlowFuse" number="51" hardwareBin="51" />
+    <Bin name="FFT" number="18" hardwareBin="18" />
+  </SoftwareBins>
+</BinDefinitions>

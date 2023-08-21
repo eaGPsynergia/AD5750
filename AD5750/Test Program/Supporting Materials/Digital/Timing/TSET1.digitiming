@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TimingFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xmlns="http://www.ni.com/Semiconductor/Timing">
+  <TimingSheet>
+    <TimeSets>
+      <TimeSet name="Tclock">
+        <Period>1 µs</Period>
+        <PinEdges>
+          <PinEdge pin="HSD_AD5791_SCLK">
+            <ReturnToLow>
+              <On>0</On>
+              <Data>250 ns</Data>
+              <Return>750 ns</Return>
+              <Off>1 µs</Off>
+            </ReturnToLow>
+            <CompareStrobe>
+              <Strobe>5E-07</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="HSD_AD5791_SDIN">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>1 µs</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>5E-07</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="HSD_AD5791_SYNC_N">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>1 µs</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>5E-07</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="HSD_AD5791_LDAC_N">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>1 µs</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>5E-07</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="Tzero">
+        <Period>1 µs</Period>
+        <PinEdges>
+          <PinEdge pin="HSD_AD5791_SCLK">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>1 µs</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>5E-07</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="HSD_AD5791_SDIN">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>1 µs</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>5E-07</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="HSD_AD5791_SYNC_N">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>1 µs</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>5E-07</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+          <PinEdge pin="HSD_AD5791_LDAC_N">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>1 µs</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>5E-07</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="Wait">
+        <Period>1 µs</Period>
+        <PinEdges>
+          <PinEdge pin="HSD_AD5791_LDAC_N">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>1 µs</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>5E-07</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+    </TimeSets>
+  </TimingSheet>
+</TimingFile>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="73636174428FCE2AC2335159EEEA6D8F" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.7.0.50003" FeatureSetName="Digital Pattern Editor" MinimumParsableVersion="4.6.0.0" MinimumSemanticallyEquivalentVersion="4.6.0.0" Name="http://www.ni.com/PatternBasedDigital" Version="4.6.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.0.50003" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.6.0.1" />
+		<ApplicationVersionInfo Build="4.7.0.50003" Name="Digital Pattern Editor" Version="17.0.0" />
+	</SourceModelFeatureSet>
+	<ShmooSetupDefinition xmlns="http://www.ni.com/PatternBasedDigital">
+		<Shmoo Id="1" OutputPath="" PatternName="SPI_Pattern">
+			<ShmooAxisSetup Id="2" Name="X-Axis" NumberOfSteps="20" PinItems="MOSI" ShmooType="Vih" Start="3 V" Stop="5 V" />
+			<ShmooAxisSetup Id="3" Name="Y-Axis" NumberOfSteps="20" PinItems="MISO" ShmooType="CompareStrobe" Start="400 ns" Stop="600 ns" TimeSets="SPI" />
+		</Shmoo>
+	</ShmooSetupDefinition>
+</SourceFile>
